@@ -1,0 +1,19 @@
+#binaries for programs and plugins
+*.exe
+*.exe~
+*.dill
+*.so
+*.dylib
+
+# Test binary, built with ` go test -c`
+*.test
+
+
+# Test binary, built with ` go test -c`
+*.out
+
+
+reports/
+
+# ignore the vendor file
+vendor/

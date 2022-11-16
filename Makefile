@@ -8,9 +8,7 @@ say_hello:
 generate:
 	@echo "Creating empty text files..."
 	touch file-{1..10}.txt
-run-automated-tests:
-	ginkgo -r
 
-
-
-
+clean:
+	@echo "Cleaning up..."
+	rm *.txt
